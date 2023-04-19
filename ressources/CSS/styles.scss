@@ -1,0 +1,511 @@
+// RESET CSS
+// ===============================================================
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+// VARIABLES
+// ================================================================
+
+$Color1: #FFCB05;
+$Color2: #3A5CA8;
+$Color3 : #1D2C5E;
+$Color4 : #EE4037;
+$Color5 : #58585A;
+$Color6 : #A29E9F;
+
+// Font-Family
+// ================================================================
+
+// font-family: 'Abril Fatface', cursive;
+// font-family: 'Caveat', cursive;
+// font-family: 'Poppins', sans-serif;
+
+
+// GLOBAL
+// ================================================================
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: $Color5;
+    background-color: #b6b6b6;
+    opacity: 1;
+    background-size: 8px 8px;
+    background-image: repeating-linear-gradient(45deg, #ffffff 0, #ffffff 0.8px, #e2e1e1 0, #e2e1e1 50%);
+}
+
+h1 {
+    margin-top: 20px;
+    font-family: 'Caveat', cursive;
+    color: $Color6;
+    text-align: center;
+    font-size: 5rem;
+    text-shadow:
+        -2px -2px 0 #000,
+        2px -2px 0 #000,
+        -2px 2px 0 #000,
+        2px 2px 0 #000;
+
+}
+
+h2 {
+    margin-top: 25px !important;
+    font-family: 'Abril Fatface', cursive;
+    color: $Color4;
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 30px;
+}
+
+p {
+    padding: 10px;
+    text-justify: distribute;
+}
+
+section {
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+    .sectionFond {
+        background-color: white;
+
+    }
+}
+
+.imgpokeball {
+    width: 35px;
+}
+
+.logo {
+    height: 45px;
+}
+
+// HEADER
+// ================================================================
+
+header {
+    background-image:
+        // linear-gradient(to bottom right, rgba(253, 165, 2, 0.4),
+
+        //         rgba(250, 250, 250, 1)),
+        url(../images/fond.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 25px;
+
+    h1 {
+        margin-top: 60px;
+        font-family: 'Caveat', cursive;
+        color: white;
+        text-align: center;
+        font-size: 5rem;
+    }
+
+
+    .navbarColor {
+        color: $Color6 !important;
+    }
+
+    .navColor {
+        color: $Color2 !important;
+    }
+
+    .navColor:hover {
+        color: $Color4 !important;
+        text-decoration: underline;
+
+    }
+
+    .navColor:active {
+        color: $Color3 !important;
+        text-decoration: underline;
+        text-underline-offset: 5px;
+    }
+}
+
+// ABOUT US
+// ================================================================
+.Apropos {
+    margin-top: 25px;
+}
+
+.AboutUs {
+
+    padding: 35px;
+
+    .imgAboutUs {
+        margin-top: 25px;
+        width: 75%;
+    }
+
+    .btnContact {
+        background-color: $Color2;
+        border: none;
+        color: white;
+        padding: 10px 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 1rem;
+        align-items: center;
+        margin-left: 5px;
+        margin-bottom: 20px;
+    }
+
+    .btnContact:hover {
+        transition: 1s;
+        background-color: $Color1;
+        border: none;
+        color: $Color3;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 1rem;
+        align-items: center;
+    }
+
+}
+
+// SALLE
+// ================================================================
+.fondSalle {
+    background-color: whitesmoke;
+    padding: 35px;
+
+
+}
+
+.salle {
+    margin-top: 30px;
+
+    .center {
+        text-align: center;
+    }
+
+    .imgSalle {
+        margin-top: 25px;
+        width: 98%;
+    }
+
+    p {
+        padding: 2%;
+    }
+
+    h4 {
+        padding: 2%;
+    }
+
+}
+
+// Arene
+// ================================================================
+.arene {
+    background-color: black;
+    padding-bottom: 10px;
+
+    .imgArene {
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+        padding: 2%;
+    }
+
+    .logoSacharena {
+        // height: ;
+        max-width: 300px;
+    }
+
+    .titre {
+        padding: 30px;
+
+        h2 {
+            margin-top: 25px;
+            padding-top: 25px;
+            text-align: center;
+            color: white;
+        }
+    }
+
+    h3 {
+        font-family: 'Caveat', cursive;
+        margin-top: 25px;
+        margin-bottom: 10px;
+        text-align: center;
+        color: white !important;
+        font-size: 3rem;
+
+    }
+
+    p {
+        padding-left: 15%;
+        padding-right: 15%;
+        color: white;
+    }
+}
+
+
+// COMBAT
+// ================================================================
+
+.combat {
+    margin-top: 30px;
+
+    .pad {
+        padding: 30px;
+
+    }
+
+    .center {
+        text-align: center;
+    }
+
+    .imgCombat {
+        width: 100%;
+    }
+
+    .cardPok {
+        padding-bottom: 30px;
+    }
+
+    p {
+        padding: 2%;
+    }
+
+    h4 {
+        padding: 2%;
+    }
+
+    .card {
+        margin-bottom: 20px;
+    }
+
+}
+
+
+
+// avis
+// ================================================================
+
+.fond {
+    background-image: linear-gradient(to bottom right, rgba(255, 255, 255, 0.6),
+
+            rgba(146, 146, 146, 0.8));
+    margin-left: 0px !important;
+    margin-right: 0 !important;
+
+    h3 {
+        font-family: 'Caveat', cursive;
+        color: $Color1;
+        font-size: 3rem;
+
+    }
+
+    p {
+        font-family: 'Caveat', cursive;
+        font-size: 1.8rem;
+        color: $Color5;
+        text-align: center;
+    }
+
+    .light {
+        font-weight: lighter;
+    }
+
+    img {
+        height: 40px;
+        border-radius: 40px;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+
+    .hop {
+        height: 60px;
+        border-radius: 60px;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+}
+
+
+// CONTACT
+// ================================================================
+.pad {
+    padding: 30px;
+
+}
+
+input {
+    width: 100%;
+    border: 1px solid $Color1;
+    padding: 8px;
+    margin-top: 25px;
+}
+
+textarea {
+    width: 100%;
+    border: 1px solid $Color1;
+    padding: 8px;
+    margin-top: 25px;
+
+}
+
+#Contact {
+    h4 {
+        text-align: left;
+    }
+}
+
+.btnContact {
+    background-color: $Color2;
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    align-items: center;
+}
+
+.btnContact:hover {
+    transition: 1s;
+    background-color: $Color1;
+    border: none;
+    color: $Color3;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    align-items: center;
+}
+
+
+.btnContact2 {
+    background-color: $Color1;
+    border: none;
+    color: $Color3;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    align-items: center;
+}
+
+.btnContact2:hover {
+    transition: 1s;
+    background-color: $Color2;
+    color: white;
+}
+
+.carte {
+    width: 100%;
+    max-width: 300px;
+}
+
+// FOOTER
+// ================================================================
+
+footer {
+
+    background-image: linear-gradient(to bottom right, rgba(95, 92, 92, 0.2),
+
+            rgba(0, 0, 0, 1)),
+        url(../images/man-336482_1920.jpg);
+    min-height: 20vh;
+    background-position: top, left;
+
+    background-size: cover;
+
+    h4 {
+        margin-top: 20px;
+        text-align: left;
+        color: white;
+        padding: 5px;
+    }
+
+    p {
+        color: white;
+    }
+
+    .pokemon {
+        height: 100px;
+        margin-top: 25px;
+    }
+}
+
+// MEDIA SCREEN 410
+// ===============================================================
+
+
+@media screen and (max-width: 410px) {
+    #slider {
+        display: none;
+    }
+
+    header {
+        height: 400px;
+
+        // background-size: auto;
+    }
+
+    h1 {
+        font-size: 1rem;
+
+    }
+
+    .btnContact2 {
+        display: inline-block;
+        align-items: center !important;
+
+    }
+
+    .fond {
+        img {
+            height: 30px;
+            border-radius: 30px;
+            margin-right: 5px;
+            margin-left: 5px;
+        }
+
+        .hop {
+            height: 50px;
+            border-radius: 50px;
+            margin-right: 5px;
+            margin-left: 5px;
+        }
+    }
+
+
+    h2 {
+        font-size: 2rem;
+
+    }
+}
+
+// MEDIA SCREEN 767
+// ===============================================================
+
+
+@media screen and (max-width: 767px) {
+    #slider {
+        display: none;
+    }
+
+
+    .AboutUs {
+        padding: 0px;
+
+        form {
+            text-align: center;
+        }
+    }
+
+    .pokemon {
+        display: block;
+        margin: auto;
+    }
+
+}
